@@ -1,0 +1,381 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+	body
+	{
+	
+		text-align: center;
+		
+		
+	}
+
+	
+	hr
+	{
+		width: 450px;
+	}
+	
+	p a
+	{
+
+	text-decoration: none;
+	font-style: italic;
+	}
+
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 600;
+		color: #454445;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+		text-align: center;
+		font-family: sans-serif;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #FFCC66 /*#068900*/;
+	}
+	
+	a:hover
+	{
+		text-decoration: underline;
+	}
+	
+	.container
+	{
+		margin: 0px auto;
+		width: 1500px;
+	}
+	
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 2em;
+	}
+
+	.title h2
+	{
+		font-weight: 400;
+		font-size: 2.8em;
+		color: black;
+		text-align: center;
+		font-family: 'Bebas';
+	}
+	
+	.title p{
+		text-decoration: underline;
+	}
+	
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.1em;
+		color: #FFCC66 /*#068900*/;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+	
+
+	#header {
+	background-color:#333333;
+	max-width: 1349px;
+	height:80px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.jumbotron {
+  background-image:url('Images/image.jpg');
+  background-size:cover;
+  height: 600px;
+  
+}
+
+	
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #FFCC66;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+	
+	
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#homebutton a{
+	font-family: 'Oswald', sans-serif;
+  color:#FFCC66;
+  text-transform:uppercase;
+  background-color:white;
+  padding:4px;
+  font-size:3em;
+  text-decoration:none;
+    border-radius: 5px;
+    border: 2px solid #fff; 
+    width: 60px;
+    height: 60px; 
+	float:left;
+	}
+	
+	
+
+	#menu
+	{
+		left: 320;
+		margin: 0;
+		padding-top:15px;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+
+	
+	#menu li a, #menu li span
+	{
+		display: block;
+		margin: 0px 1px;
+		padding: 0em 1.5em;
+		letter-spacing: 0.20em;
+		line-height: 50px;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: white; /*consider text colour after changing background colour*/
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		background: #FFCC66; /*#068900*/
+		color: black;
+	}
+	
+	#menu .current_page_item a
+	{
+		background: #FFCC66 /*#068900*/;
+		color: #FFF;
+	}
+	
+/*-----------------------------------------------*/
+/*             Content                           */
+/*-----------------------------------------------*/
+
+	/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 200px 0 150px;
+  background-color:#1c1c1c;
+
+ 
+}
+
+
+.supporting h1,
+.supporting h2 {
+  color: #FFCC66;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-transform:uppercase;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  padding: 0px 40px;
+  font-size: 18px;
+}
+
+.supporting  p a{
+  color:black;
+text-transform:uppercase;
+  background-color:white;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:1em;
+  text-decoration:none;
+}
+
+.supporting p:hover a, .supporting p.active a, .supporting p.active span
+	{
+		background: #FFCC66; /*#068900*/
+		color: white;
+	}
+
+
+
+.supporting h1, h2, a{
+	font-family: 'Oswald', sans-serif;
+}
+
+.supporting p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+/*-----------------------------------------------*/
+/*              Footer                           */
+/*-----------------------------------------------*/
+
+	footer
+	{
+		padding: 0 10px;
+		background:#EEE;
+		padding-top:10px;
+		padding-bottom:5px;
+		right: 0px;
+		left: 0px;
+		position:relative;
+		background-color:#FFCC66;
+		color:black;
+		
+		
+	}
+	
+	footer a
+	{
+		color:white;
+	}
+/*-------------------------------------------------*/
+/*                 Form                            */
+/*-------------------------------------------------*/
+
+	form
+	{
+		margin: 0 auto;
+		width: 400px;
+		padding: 1em;
+		border: 1px solid #CCC;
+		border-radius: 1em;
+	}
+	
+	form div + div 
+	{
+		margin-top: 1em;
+	}
+	
+	label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+	input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* To give the same size to all text field */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+	}
+	
+	input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+
+	textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on every browsers */
+    resize: vertical;
+}
+
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+}
+
+	
+	
