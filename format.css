@@ -119,7 +119,7 @@ html, body {
 }
 
 .jumbotron {
-  background-image:url('Images/image.jpg');
+  background-image:url('image.jpg');
   background-size:cover;
   height: 600px;
   
